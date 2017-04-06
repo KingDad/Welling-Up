@@ -1,0 +1,203 @@
+body {
+  margin: 0;
+  overflow-x: hidden;
+  padding: 0; }
+
+header, nav, ul, li, main, div, h2, p, footer {
+  border: 1px solid #000000; }
+
+header {
+  background-color: #99aba9; }
+  header .logo {
+    font-size: 1.5em; }
+  header nav {
+    background-color: #346;
+    margin: 80px 0 0 0;
+    width: 100%; }
+    header nav ul {
+      background-color: #e6d27a;
+      min-height: 60px;
+      width: 100%; }
+      header nav ul li {
+        background-color: #99aba9;
+        display: inline-block;
+        min-height: 25px;
+        list-style-type: none;
+        margin: 5px 0 5px 3.47222%;
+        padding: 10px;
+        text-align: center;
+        width: 8.33333%; }
+
+main {
+  background-color: #99aba9; }
+  main #design1 {
+    background-color: #e6d27a;
+    display: inline-block;
+    margin: 40px 16.66667%;
+    min-width: 66.66667%; }
+    main #design1 h2 {
+      background-color: #99aba9;
+      padding: 10px; }
+    main #design1 p {
+      background-color: #99aba9;
+      padding: 10px; }
+    main #design1 div audio {
+      margin: 0 30%; }
+  main #design2 {
+    background-color: #e6d27a;
+    display: none;
+    margin: 40px 16.66667%;
+    min-width: 66.66667%; }
+    main #design2 h2 {
+      background-color: #99aba9;
+      display: inline-block;
+      padding: 10px;
+      width: 30%; }
+    main #design2 p {
+      background-color: #99aba9;
+      display: inline-block;
+      margin: 0 0;
+      padding: 10px;
+      width: 30%; }
+    main #design2 .circle {
+      border-radius: 200px;
+      display: inline-block;
+      height: 400px;
+      margin: -3% 20%;
+      vertical-align: top;
+      width: 400px;
+      z-index: -1; }
+      main #design2 .circle audio {
+        margin: 45% 15%; }
+    main #design2 div {
+      display: inline-block;
+      margin-left: 25%;
+      width: 30%; }
+      main #design2 div p {
+        width: 100%; }
+
+button {
+  display: inline-block;
+  height: 50px;
+  margin: 40px 0 40px 45vw;
+  width: 200px; }
+
+#design3 {
+  background-color: #e6d27a;
+  display: inline-block;
+  margin: 20px 16.66667vw;
+  width: 66vw; }
+  #design3 .portrait {
+    display: inline-block;
+    height: 100px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 10%;
+    width: 100px; }
+    #design3 .portrait img {
+      height: 100px;
+      width: 100px; }
+  #design3 .top {
+    margin: 10px 45%; }
+  #design3 .char-description {
+    margin: 10px auto;
+    width: 80%; }
+
+#design4 {
+  background-color: #346;
+  display: none;
+  margin: 20px 16.66667vw;
+  width: 66vw; }
+  #design4 .portrait {
+    display: inline-block;
+    height: 100px;
+    width: 100px; }
+    #design4 .portrait img {
+      height: 100px;
+      width: 100px; }
+  #design4 .p1 {
+    margin: 20px 45%; }
+  #design4 .p2 {
+    margin-left: 25%;
+    -webkit-transform: rotate(40deg); }
+  #design4 .p3 {
+    margin-left: 38%;
+    -webkit-transform: rotate(80deg); }
+  #design4 .p4 {
+    margin-left: 33%;
+    -webkit-transform: rotate(120deg); }
+  #design4 .p5 {
+    margin-left: 5%;
+    -webkit-transform: rotate(160deg); }
+  #design4 .p6 {
+    margin-left: 36%;
+    -webkit-transform: rotate(200deg); }
+  #design4 .p7 {
+    margin-left: 23%;
+    -webkit-transform: rotate(240deg); }
+  #design4 .p8 {
+    margin-left: 20%;
+    -webkit-transform: rotate(280deg); }
+  #design4 .p9 {
+    margin-left: 27%;
+    -webkit-transform: rotate(320deg); }
+  #design4 .char-description {
+    margin: 10px auto;
+    width: 80%; }
+
+#design5 .episode {
+  background-color: #e6d27a;
+  display: inline-block;
+  margin: 200px 16.66667% 30px 16.66667%;
+  min-width: 66.66667%; }
+  #design5 .episode h2 {
+    background-color: #99aba9;
+    padding: 10px; }
+  #design5 .episode p {
+    background-color: #99aba9;
+    padding: 10px; }
+  #design5 .episode div audio {
+    margin: 0 30%; }
+
+#design5 .collapsed-episode {
+  background-color: #346;
+  display: inline-block;
+  margin: 5px 16.66667%;
+  min-width: 66.66667%; }
+  #design5 .collapsed-episode h2 {
+    background-color: #99aba9;
+    padding: 10px; }
+  #design5 .collapsed-episode p {
+    background-color: #99aba9;
+    padding: 10px; }
+
+#design6 {
+  display: none; }
+
+.large-block {
+  margin-left: 8.33333%;
+  width: 83.33333%; }
+
+.pages {
+  margin-left: 8.33333%;
+  width: 83.33333%; }
+
+.page {
+  display: inline-block;
+  width: 41.66667%; }
+  .page li {
+    display: inline-block;
+    list-style-type: none;
+    margin-bottom: 5px; }
+
+footer {
+  background-color: #346;
+  display: block;
+  width: 100%; }
+  footer ul {
+    display: inline-block;
+    margin-left: 8.3%;
+    width: 30%; }
+    footer ul li {
+      background-color: #e6d27a;
+      list-style-type: none; }
